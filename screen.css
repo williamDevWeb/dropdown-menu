@@ -1,0 +1,21 @@
+@media screen and (max-width: 500px) {
+    nav.dropdown >a{
+        display: none;
+    }
+    nav.dropdown ul li{
+        padding: 0;
+    }
+    nav.dropdown ul li a{
+        font-size: 10pt;
+    }
+    nav.dropdown ul ul li{
+        padding: 5px;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    nav.dropdown ul li a{
+        font-size: 8pt;
+    }
+}
